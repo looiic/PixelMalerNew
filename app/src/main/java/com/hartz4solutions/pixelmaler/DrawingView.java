@@ -6,7 +6,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.Point;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
 import android.util.AttributeSet;
@@ -14,10 +13,6 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Stack;
 
 /**
  * Die DrawingView ist für die Darstellung und Verwaltung der Zeichenfläche
@@ -25,7 +20,7 @@ import java.util.Stack;
  */
 public class DrawingView extends View {
 
-    private static final int GRID_SIZE = 11;
+    private static final int GRID_SIZE = 13;
 
     private Path drawPath = new Path();
     private Paint drawPaint = new Paint();
