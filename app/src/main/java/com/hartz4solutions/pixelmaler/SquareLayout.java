@@ -29,6 +29,7 @@ public class SquareLayout extends LinearLayout {
             height = (int)(width / mScale + 0.5);
         }
 
+
         super.onMeasure(
                 MeasureSpec.makeMeasureSpec(width, MeasureSpec.EXACTLY),
                 MeasureSpec.makeMeasureSpec(height, MeasureSpec.EXACTLY)

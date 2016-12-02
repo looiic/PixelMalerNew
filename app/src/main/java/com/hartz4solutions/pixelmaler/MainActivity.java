@@ -37,6 +37,7 @@ public class MainActivity extends Activity {
         drawingView.setErase(true);
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

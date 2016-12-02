@@ -19,6 +19,5 @@
             android:layout_weight="1"
             android:background="#FFFFFFFF" />
     </com.hartz4solutions.pixelmaler.SquareLayout>
-
     <include layout="@layout/palette"></include>
 </LinearLayout>
